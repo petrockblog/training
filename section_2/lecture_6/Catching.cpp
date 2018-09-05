@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void goesWring() {
+void goesWrong() {
   bool error1Detected = true;
   bool error2Detected = false;
 
@@ -16,13 +16,13 @@ void goesWring() {
 
 int main() {
   try {
-    goesWring();
-  }
-  catch (exception& e) {
-    cout << "Catching exception: " << e.what() << endl;
+    goesWrong();
   }
   catch (bad_alloc& e) {
     cout << "Catching bad_alloc: " << e.what() << endl;
+  }
+  catch (exception& e) {
+    cout << "Catching exception: " << e.what() << endl;
   }
 
   return 0;
