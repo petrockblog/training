@@ -1,10 +1,9 @@
 #include <iostream>
-#include <exception>
 using namespace std;
 
 class MyException : public exception {
  public:
-  virtual const char *what() const noexcept {
+  const char *what() const noexcept override {
     return "Exception here: Something bad happened";
   };
 };
