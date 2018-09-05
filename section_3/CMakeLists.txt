@@ -1,1 +1,2 @@
 add_subdirectory(lecture_7)
+add_subdirectory(lecture_8)
