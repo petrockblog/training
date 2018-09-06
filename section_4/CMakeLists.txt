@@ -1,3 +1,5 @@
 add_subdirectory(lecture_12)
 add_subdirectory(lecture_13)
 add_subdirectory(lecture_14)
+add_subdirectory(lecture_15)
+add_subdirectory(lecture_16)
