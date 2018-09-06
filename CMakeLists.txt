@@ -6,3 +6,4 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
 
 add_subdirectory(section_2)
 add_subdirectory(section_3)
+add_subdirectory(section_4)
